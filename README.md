@@ -15,7 +15,7 @@ By replacing standard garbage-collected buffer allocations with a **custom zero-
 
 ## 🏛️ System Architecture
 
-
+```text
 [ Legacy Binary Stream ] ---> ( TCP Port 9000 )
                                     │
                                     ▼
@@ -32,6 +32,7 @@ By replacing standard garbage-collected buffer allocations with a **custom zero-
                                     │
                                     ▼
 [ Downstream Clients ] <--- ( GraphQL HTTP API )
+```
 ---
 
 ## 🔬 Technical Report & R&D Case Study
